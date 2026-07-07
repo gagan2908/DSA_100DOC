@@ -18,10 +18,10 @@ Explanation: 2^5 = 2 * 2 * 2 * 2 * 2 = 32 */
 #include <stdio.h>
 
 int power(int a, int b) {
-    // Base case
+    
     if (b == 0) return 1;
     
-    // Recursive case
+    
     return a * power(a, b - 1);
 }
 
