@@ -28,7 +28,7 @@ int main() {
     int matrix[m][n];
     int sum = 0;
 
-    // Input matrix elements
+    
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             scanf("%d", &matrix[i][j]);
